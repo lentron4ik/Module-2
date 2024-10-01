@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace zd1
+namespace zd4
 {
-    internal class Program
+    public interface IDrawable
     {
-        static void Main(string[] args)
-        {
-        }
+        void Draw();
     }
 }

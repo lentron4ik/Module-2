@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11A698B9-5572-4318-BD90-7AA3A2FF6AF0}</ProjectGuid>
+    <ProjectGuid>{14715D91-5B7F-4738-BAD2-49B57A2BE5BE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>zd1</RootNamespace>
-    <AssemblyName>zd1</AssemblyName>
+    <RootNamespace>Bap1_zd3</RootNamespace>
+    <AssemblyName>Bap1 zd3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
-    <Compile Include="zd1.cs" />
+    <Compile Include="B1 zd3.cs" />
+    <Compile Include="Circle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
